@@ -14,8 +14,8 @@
 :root {
     --main-color: #033a80;
     --bg-color: #fff;
-    --text-color: #0f0c27;
-    --hover: rgb(243, 121, 15);
+    --text-color: #ffffff;
+    --hover: #34d399;
     --big-font: 3.2rem;
     --medium-font: 1.8rem;
     --p-font: 0.941rem;
@@ -68,7 +68,7 @@ body {
 }
 
 header .shadow{
-    box-shadow:  0 0 4px rgb(14,55,54, 0.15);
+    box-shadow:  0 0 4px var(--hover);
 }
 
 .logo {
@@ -93,8 +93,8 @@ header .shadow{
 .navbar a {
     font-size: 1.1rem !important;
     padding: 0 20px !important;
-    color: var(--text-color);
-    font-weight: 500;
+    color: black;
+    font-weight: bold;
     align-items: center;
     text-decoration: none;
 }
@@ -114,14 +114,18 @@ header .shadow{
     font-size: 1.4rem;
 }
 
-
+body{
+    background-color: rgb(51 65 85);
+}
 
 
 
 /* HOME SECTION */
 
 .myName{
-    font-size: 35px !important;
+    font-size: 45px !important;
+    color: rgb(52 211 153);
+    font-weight: bold !important;
 }
 
 .careerCont, career{
@@ -169,8 +173,9 @@ header .shadow{
 }
 
 .btn {
+    font-weight: bold;
     display: inline-block;
-    background: var(--main-color);
+    background: #00c3aae8;
     color: #fff;
     padding: 0.7rem 1.3rem;
     border: 0.6rem;
@@ -225,9 +230,11 @@ header .shadow{
 }
 
 .about-text p {
+    line-height: 1.8;
     font-size: var(--p-font);
     font-weight: 400;
     text-align: justify;
+    font-size: 20px !important;
 }
 
 .information {
@@ -292,7 +299,7 @@ span {
     left: 0;
     width: 100%;
     height: 0.6rem;
-    background: hsla(260, 100%, 44%, 0.4);
+    background: var(--hover);
     border-radius: 0.5rem;
 }
 
@@ -306,6 +313,7 @@ span {
 }
 
 .skills-content{
+    line-height: 1.8;
     text-align: justify;
 }
 
@@ -346,7 +354,7 @@ span {
 .card-container .project-card{
     text-align: center;
     border-top: 5px solid var(--main-color);
-    box-shadow: 0px 3px 7px rgba(66, 71, 71, 0.95);
+    box-shadow: 0px 3px 7px var(--hover);
     margin: 10px auto;
     padding: 5px 0;
     width: 350px;
@@ -366,7 +374,7 @@ span {
 
 .card-container a{
     text-decoration: none;
-    color: black;
+    color: var(--text-color);
 }
 
 .card-container h2{
@@ -496,6 +504,7 @@ form , input, textarea{
 
 .dark-bg a{
     color: white !important;
+    
 }
 
 .dark-bg .navbar{
@@ -540,6 +549,7 @@ form , input, textarea{
         --medium-font:1.1rem;
     }
 }
+
 
 
 
@@ -598,6 +608,26 @@ form , input, textarea{
     .about-img img{
         width: 100%;
     }
+
+    .mail{
+        display: none;
+    }
    
 
+}
+
+
+
+
+.mail{
+    position: fixed;
+    bottom: 50px !important;
+    right: 0;
+}
+.mail p{
+    padding: 0 10px;
+    letter-spacing: 5px;
+    color: var(--hover);
+    line-height: 1.5;
+    writing-mode: vertical-rl;
 }
