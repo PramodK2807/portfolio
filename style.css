@@ -201,6 +201,7 @@ body{
 
 .about {
     margin: 20px auto;
+    max-width: 90% !important;
 }
 
 .heading {
@@ -257,6 +258,9 @@ body{
 
 /* SKILLS */
 
+.skills{
+    max-width: 90% !important;
+}
 .skills .heading {
     text-align: center;
     margin: 60px auto;
@@ -339,6 +343,9 @@ span {
 
 
 /* PROJECTS */
+.projects{
+    max-width: 90%;
+}
 .card-container{
     margin: 20px 0;
     display: flex;
@@ -469,7 +476,7 @@ form , input, textarea{
 
 
 .footer{
-    width: 100%;
+    max-width: 100%;
     background: var(--main-color);
     padding: 10px 0;
 
@@ -583,7 +590,7 @@ form , input, textarea{
     .navbar a{
         padding: 1.5rem;
         display: block;
-        background-color: var(--bg-color);
+        /* background-color: var(--bg-color); */
     }
 
     .scroll-down{

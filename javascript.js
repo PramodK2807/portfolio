@@ -35,7 +35,7 @@ careerEl.style.color = "red";
 careerEl.style.fontWeight = "bold";
 careerEl.style.fontSize = "25px";
 
-const careersArray = ["Frontend Developer", "Freelancer", "YouTuber", "Engineer"];
+const careersArray = [ "Full Stack Developer" ,"Frontend Developer", "Freelancer", "Engineer"];
 
 let careerIndex = 0;
 
