@@ -10,7 +10,7 @@ window.addEventListener("scroll", () => {
 })
 
 const darkMode = document.querySelector("#darkBtn");
-console.log(darkMode.classList);
+// console.log(darkMode.classList);
 
 darkMode.addEventListener("click", () => {
     if(darkMode.classList.contains("bx-moon")){
