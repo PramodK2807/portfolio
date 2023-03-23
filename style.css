@@ -67,8 +67,9 @@ body {
     box-shadow: none;
 }
 
-header .shadow{
+nav .shadow{
     box-shadow:  0 0 4px var(--hover);
+    background-color: #1e00ff !important;
 }
 
 .logo {
